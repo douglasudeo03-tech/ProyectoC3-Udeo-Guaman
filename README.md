@@ -37,38 +37,38 @@ Los objetivos del sistema se enfocan en cumplir el factor principan que es facil
 
 * **CP01**
 
- * Tipo: Unitario
- * Requerimiento: RF2, RNF2
- * Datos: Intento de Préstamo del libro "El Quijote", con 0 ejemplares disponibles.
- * Resutado esperado: El sistema debe mostrar un mensaje de error ("Ejemplares no disponibles") y denegar el préstamo.
- * Resultado obtenido: Éxito.
+  * Tipo: Unitario
+  * Requerimiento: RF2, RNF2
+  * Datos: Intento de Préstamo del libro "El Quijote", con 0 ejemplares disponibles.
+  * Resutado esperado: El sistema debe mostrar un mensaje de error ("Ejemplares no disponibles") y denegar el préstamo.
+  * Resultado obtenido: Éxito.
 
 
 * **CP3**
 
- * Tipo: Unitario
- * Requerimiento: RNF1
- * Datos: Intento de iniciar sesión con el nombre de usuario LectorA" y contraseña "pass123" para la función de Préstamo
- * Resutado esperado: El sistema debe mostrar un mensaje de error ("Acceso Denegado") y denegar la entrada a las funciones transaccionales.
- * Resultado obtenido: Éxito.
+  * Tipo: Unitario
+  * Requerimiento: RNF1
+  * Datos: Intento de iniciar sesión con el nombre de usuario LectorA" y contraseña "pass123" para la función de Préstamo
+  * Resutado esperado: El sistema debe mostrar un mensaje de error ("Acceso Denegado") y denegar la entrada a las funciones transaccionales.
+  * Resultado obtenido: Éxito.
 
 
 * **CP4**
 
- * Tipo: Validacion
- * Requerimiento: RNF3
- * Datos: Un usuario realiza una búsqueda por el título "Historia". Se mide el tiempo de respuesta. 
- * Resutado esperado: El proceso de búsqueda y visualización de resultados en la pantalla debe completarse en un tiempo máximo de 3 segundos.
- * Resultado obtenido: Las credenciales fueron aceptadas y se ingresó al sistema sin inconvenientes
+  * Tipo: Validacion
+  * Requerimiento: RNF3
+  * Datos: Un usuario realiza una búsqueda por el título "Historia". Se mide el tiempo de respuesta. 
+  * Resutado esperado: El proceso de búsqueda y visualización de resultados en la pantalla debe completarse en un tiempo máximo de 3 segundos.
+  * Resultado obtenido: Las credenciales fueron aceptadas y se ingresó al sistema sin inconvenientes
 
 
 * **CP5**
 
- * Tipo: Validacion
- * Requerimiento: RF5
- * Datos: Se genera la lista de Alerta. Préstamo #123 tiene fecha de devolución: Ayer.
- * Resutado esperado: El reporte generado debe incluir el Préstamo #123 en la lista de vencidos.
- * Resultado obtenido: Éxito
+  * Tipo: Validacion
+  * Requerimiento: RF5
+  * Datos: Se genera la lista de Alerta. Préstamo #123 tiene fecha de devolución: Ayer.
+  * Resutado esperado: El reporte generado debe incluir el Préstamo #123 en la lista de vencidos.
+  * Resultado obtenido: Éxito
 
 
 
